@@ -61,8 +61,8 @@ section:before {
 /* Scroll button */
 .scroll-button {
   position: fixed;
-  bottom: 30px;
-  right: 30px;
+  bottom: 40px;
+  right: 60px;
   z-index: 100;
   opacity: 0;
   border: none;
@@ -70,11 +70,15 @@ section:before {
   background-color: #1a3759;
   color: white;
   cursor: pointer;
-  padding: 20px;
-  border-radius: 50%;
-  font-size: 1.5rem;
+  padding: 15px;
+  border-radius: 25%;
+  font-size: 1.25rem;
   transform: translateY(100px);
   transition: all 0.5s ease;
+}
+
+.scroll-button:focus{
+  outline: 0;
 }
 
 .showButton{

@@ -17,7 +17,6 @@ function initMap() {
 //Scroll button
 let scrollToTopButton = document.querySelector(".scroll-button");
 
-
 function handleScroll(){
     let scrollTotal = document.documentElement.scrollHeight - document.documentElement.clientHeight;
     if((document.documentElement.scrollTop/scrollTotal) > 0.40){
@@ -36,6 +35,7 @@ function handleScroll(){
 function scrollToTop(){
     document.documentElement.scrollTo({
         top: 0,
+        left: 0,
         behavior: "smooth"
     })
 }
