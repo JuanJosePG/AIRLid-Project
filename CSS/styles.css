@@ -293,56 +293,56 @@ footer i {
 }
 
 /* Media queries */
-/* Extra extra large size */
-@media (min-width: 1200px) {
-  .navbar-collapse {
-    max-height: none;
-  }
-}
-
-/* Extra large size */
-@media (max-width: 1200px) {
+/* Medium size */
+@media (min-width: 611px) and (max-width: 1190px){
   .navbar-collapse {
     max-height: none;
   }
 
-  .imagen-section h1 {
-    font-size: 2.5rem;
-  }
-}
-
-/* Large size */
-@media (max-width: 992px) {
-  .imagen-section h1 {
+  .imagen-section h1{
     font-size: 2rem;
   }
 
-  .option-details a h2 {
-    font-size: 1.5rem;
+  .carousel-container{
+    max-width: 500px;
   }
 }
 
-/* Medium size */
-@media (max-width: 768px) {
-  .navbar-collapse {
-    max-height: none;
-  }
 
-  .imagen-section h1 {
-    font-size: 1.5rem;
-  }
-}
 /* Small size */
-@media (max-width: 576px) {
+@media(max-width: 610px){
   .navbar-brand img {
     height: 2rem;
     padding-left: 0.5rem;
   }
-  .imagen-section h1 {
-    font-size: 1rem;
-  }
 
   .scroll-button{
-      padding: 10px;
+    bottom: 15px;
+    right: 15px;
+  }
+
+  .offer-title{
+    font-size: 2rem;
+  }
+
+  .card{
+    margin: 0 3rem;
+  }
+
+  .opinion-title{
+    font-size: 1.5rem;
+  }
+
+  .carousel-container{
+    max-width: 350px;
+  }
+
+  .carousel p{
+    font-size: 1.25rem;
+  }
+
+  .map{
+    width: 85%;
+    margin: 0 auto;
   }
 }
