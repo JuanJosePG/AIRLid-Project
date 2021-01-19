@@ -4,10 +4,15 @@
   box-sizing: border-box;
 }
 
+:root{
+  --prussian-blue: #1a3759;
+  --soft-red: #e63946;
+}
+
 /* General */
 body {
   font-family: "Montserrat", sans-serif;
-  color: #1a3759;
+  color: var(--prussian-blue);
 }
 
 a:hover {
@@ -15,20 +20,20 @@ a:hover {
 }
 
 .border-prussian {
-  border: 0.2rem solid #1a3759;
+  border: 0.2rem solid var(--prussian-blue);
 }
 
 .border-imperial {
-  border: 0.2rem solid #e63946;
+  border: 0.2rem solid var(--soft-red);
 }
 
 .btn-prussian {
-  background-color: #1a3759;
+  background-color: var(--prussian-blue);
   color: white;
 }
 
 .btn-prussian:hover {
-  background-color: #e63946;
+  background-color: var(--soft-red);
   color: white;
 }
 
@@ -67,7 +72,7 @@ section:before {
   opacity: 0;
   border: none;
   outline: none;
-  background-color: #1a3759;
+  background-color: var(--prussian-blue);
   color: white;
   cursor: pointer;
   padding: 15px;
@@ -88,11 +93,11 @@ section:before {
 
 .invertedButton{
   background: white;
-  color: #1a3759;
+  color: var(--prussian-blue);
 }
 
 .scroll-button:hover {
-  background-color: #e63946;
+  background-color: var(--soft-red);
 }
 
 /* Navbar */
@@ -123,7 +128,7 @@ section:before {
 }
 
 .nav-link:hover {
-  color: #e63946;
+  color: var(--soft-red);
 }
 
 /* Imagen principal */
@@ -190,16 +195,16 @@ section:before {
 .offer-title {
   font-size: 3rem;
   font-weight: bolder;
-  color: #e63946;
+  color: var(--soft-red);
 }
 
 .card-body h5 {
-  color: #1a3759;
+  color: var(--prussian-blue);
   font-weight: bold;
 }
 
 .card {
-  border: 0.01rem solid #1a3759;
+  border: 0.01rem solid var(--prussian-blue);
   box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.125);
 }
 
@@ -237,7 +242,7 @@ section:before {
 }
 
 .control-button {
-  color: #1a3759;
+  color: var(--prussian-blue);
   font-size: 3rem;
 }
 
@@ -270,7 +275,7 @@ section:before {
 
 /* Footer */
 footer {
-  background-color: #1a3759;
+  background-color: var(--prussian-blue);
   padding: 80px 0;
   text-align: center;
   color: white;
@@ -281,7 +286,7 @@ footer a {
 }
 
 footer a:hover {
-  color: #e63946;
+  color: var(--soft-red);
 }
 
 footer .list-inline .list-inline-item {
